@@ -6,6 +6,7 @@ import Third from '../Third/Third'
 import Fourth from '../Fourth/Fourth'
 import Fifth from '../Fifth/Fifth'
 import Sixth from '../Sixth/Sixth'
+import Youtube from '../Youtube/Youtube'
 
 function Main() {
   return (
@@ -17,6 +18,7 @@ function Main() {
    <Fourth/>
    <Fifth/>
    <Sixth/>
+   <Youtube/>
    
    </>
   )
