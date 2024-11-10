@@ -4,11 +4,14 @@ import Four04 from "../Four04/Four04";
 
 function Productpage(props) {
 	const [products, setProducts] = useState([]);
-	const [productID, setProductID] = useState(props.match.params.pid);
+	const { productID } = useParams();
+
+
+	
 	
 
 	useEffect(() => {
-		fetch("http://localhost:3000 /iphones")
+		fetch("/iphone.json")
 			.then((res) => res.json())
 			.then((products) => {
 				const productList = products.products;
@@ -18,7 +21,7 @@ function Productpage(props) {
 				setProducts(singleProduct);
 			})
 			.catch(() => console.log("Error: unable to fetch!!"));
-	}, [productID]);
+	}, []);
 
 	if (products.length) {
 		return (

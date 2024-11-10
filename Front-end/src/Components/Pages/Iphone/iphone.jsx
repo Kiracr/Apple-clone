@@ -7,7 +7,7 @@ function Iphone() {
 		// fetch("http://localhost:3001/iphones") local host
 
 		//remote server
-		fetch("http://localhost:3000/iphones")
+		fetch("/iphone.json")
 			.then((res) => res.json())
 			.then((products) => {
 				const product = products.products;

@@ -305,10 +305,10 @@ function Footer() {
 						<h2>
 							Built By:{" "}
 							<a
-								href="https://www.biruk14.com/"
+								href="/"
 								target="_blank"
 								rel="noreferrer">
-								Biruk Kebede
+								Kirubel Tadesse
 							</a>
 						</h2>
 					</div>

@@ -33,7 +33,7 @@ function App() {
           <Route path='/' element={<SharedLayout/>} >
           <Route path='/' element={<Main/>} />
           <Route path='iphone' element={<Iphone/>} />
-          <Route path='iphone/:pid' element={<Productpage/>} />
+          <Route path='iphone/:productID' element={<Productpage/>} />
           <Route path='mac' element={<Mac/>} />
           <Route path='ipad' element={<Ipad/>} />
           <Route path='watch' element={<Watch/>} />
